@@ -1,0 +1,11 @@
+PRAGMA foreign_keys=on;
+
+CREATE TABLE "Ingreso_pagare" (
+  "numero_pagare" INTEGER NOT NULL PRIMARY KEY,
+  "nominales" REAL NOT NULL,
+  "moneda" TEXT NOT NULL,
+  "fecha_emision" DATE NOT NULL,
+  "fecha_vencimiento" DATE NOT NULL,
+  "base" TEXT NOT NULL,
+  "tasa_anualizada_compra" REAL
+)
